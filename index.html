@@ -10,35 +10,36 @@
     <link rel="stylesheet" href="./public/css/app.css">
 </head>
 
-<body>
+<body class="bg-black">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+    <nav class="navbar navbar-expand-lg navbar-light text-secondary">
+        <a class="text-white navbar-brand mr-50" href="#">Photosen</a>
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Photosen</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex justify-content-between collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active text-secondary" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle text-secondary" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Gallery
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Services</a>
+                        <a class="nav-link active text-secondary" aria-current="page" href="#">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                        <a class="nav-link active text-secondary" aria-current="page" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link text-secondary" href="#">Contact</a>
                     </li>    
                 </ul>
                 <div class="reseaux">
@@ -51,6 +52,67 @@
         </div>
     </nav>
     <!-- fin navbar -->
+    <!-- cartes -->
+    <section id="cartes">
+        <div class="cards container-fluid">
+            <div class="contCard row d-flex justify-content-around mb-5">
+                <div class="contimg col-6-sm col-4-lg">
+                    <img src="./public/img/Photosen/images/img_1.jpg" alt="">
+                    <p>Nature</p>
+                    <button type="button" class="btn btn-outline-secondary">more photos</button>
+                </div>
+                <div class="contimg col-6-sm col-4-lg">
+                    <img src="./public/img/Photosen/images/img_2.jpg" alt="">
+                    <p>Portrait</p>
+                    <button type="button" class="btn btn-outline-secondary">more photos</button>
+                </div>
+                <div class="contimg col-6-sm col-4-lg">
+                    <img src="./public/img/Photosen/images/img_3.jpg" alt="">
+                    <p>People</p>
+                    <button type="button" class="btn btn-outline-secondary">more photos</button>
+                </div>
+            </div>
+        </div>
+        <div class="cards container-fluid">
+            <div class="contCard row d-flex justify-content-around mb-5">
+                <div class="contimg col-6-sm col-4-lg">
+                    <img src="./public/img/Photosen/images/img_4.jpg" alt="">
+                    <p class="archi">Architecture</p>
+                    <button type="button" class="btn btn-outline-secondary">more photos</button>
+                </div>
+                <div class="contimg col-6-sm col-4-lg">
+                    <img src="./public/img/Photosen/images/img_5.jpg" alt="">
+                    <p>Animals</p>
+                    <button type="button" class="btn btn-outline-secondary">more photos</button>
+                </div>
+                <div class="contimg col-6-sm col-4-lg">
+                    <img src="./public/img/Photosen/images/img_6.jpg" alt="">
+                    <p>Sports</p>
+                    <button type="button" class="btn btn-outline-secondary">more photos</button>
+                </div>
+            </div>
+        </div>
+        <div class="cards container-fluid">    
+            <div class="contCard row d-flex justify-content-around">
+                <div class="contimg col-6-sm col-4-lg">
+                    <img src="./public/img/Photosen/images/img_7.jpg" alt="">
+                    <p>Travel</p>
+                    <button type="button" class="btn btn-outline-secondary">more photos</button>
+                </div>
+                <div class="contimg col-6-sm col-4-lg">
+                    <img src="./public/img/Photosen/images/img_3.jpg" alt="">
+                    <p>People</p>
+                    <button type="button" class="btn btn-outline-secondary">more photos</button>
+                </div>
+                <div class="contimg col-6-sm col-4-lg">
+                    <img src="./public/img/Photosen/images/img_4.jpg" alt="">
+                    <p class="archi">Architecture</p>
+                    <button type="button" class="btn btn-outline-secondary">more photos</button>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <!-- fin section cartes -->
 
 
 

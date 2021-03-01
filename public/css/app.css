@@ -20800,3 +20800,56 @@ a.text-footer:hover, a.text-footer:focus {
     border-color: #dee2e6;
   }
 }
+
+body {
+  background-color: #000;
+}
+
+.cards .contCard .contimg {
+  position: relative;
+}
+
+.cards .contCard .contimg img {
+  height: 780px;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .8s ease-in-out;
+  z-index: -1;
+}
+
+.cards .contCard .contimg img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+.cards .contCard .contimg p {
+  position: absolute;
+  z-index: 0;
+  top: 40%;
+  left: 45%;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.cards .contCard .contimg .archi {
+  left: 300px;
+}
+
+.cards .contCard .contimg button {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  z-index: 2;
+  color: white;
+  border: 2px solid white;
+  font-size: 20px;
+  padding: 5px 25px;
+  text-transform: uppercase;
+}
+
+.cards .contCard .contimg button:hover {
+  color: #000;
+  background-color: white;
+}
