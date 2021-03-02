@@ -21038,7 +21038,8 @@ body {
 
 .cards .contCard .contimg button:hover {
   color: #000;
-  background-color: white;
+  background-color: #36BF8D;
+  border: none;
 }
 
 #portrait {
