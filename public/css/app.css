@@ -21066,36 +21066,39 @@ body {
   font-size: 45px;
 }
 
-#services .container .row .col-4 {
+#services .service .row .card {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: #292828;
-  padding: 25px 25px;
+  height: 250px;
+  width: 800px;
+  margin: auto;
 }
 
-#services .container .row .col-4 i {
+#services .service .row .card i {
   font-size: 50px;
   padding: 15px 0;
 }
 
-#services .container .row .col-4 h4 {
+#services .service .row .card h4 {
   color: #f3eded;
 }
 
-#services .container .row .col-4 p {
+#services .service .row .card p {
   color: #f3eded;
   opacity: 0.6;
 }
 
-#services .container .row .col-4 span {
+#services .service .row .card span {
   color: #36BF8D;
 }
 
 #about h2 {
   color: #ece8e8;
   margin: 20px 0;
+  font-size: 45px;
 }
 
 #about .about {
@@ -21110,14 +21113,75 @@ body {
   color: #7e7979;
 }
 
-#about .container-fluid .row, #about .container-sm .row, #about .container-md .row, #about .container-lg .row, #about .container-xl .row {
+#about .container-fluid .row .col-4, #about .container-sm .row .col-4, #about .container-md .row .col-4, #about .container-lg .row .col-4, #about .container-xl .row .col-4 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 #about .container-fluid .row .col-4 img, #about .container-sm .row .col-4 img, #about .container-md .row .col-4 img, #about .container-lg .row .col-4 img, #about .container-xl .row .col-4 img {
   height: 300px;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .8s ease-in-out;
+}
+
+#about .container-fluid .row .col-4 img:hover, #about .container-sm .row .col-4 img:hover, #about .container-md .row .col-4 img:hover, #about .container-lg .row .col-4 img:hover, #about .container-xl .row .col-4 img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+#about .container-fluid .row .col-4 span, #about .container-sm .row .col-4 span, #about .container-md .row .col-4 span, #about .container-lg .row .col-4 span, #about .container-xl .row .col-4 span {
+  margin-top: 50px;
+  color: #fafafa;
+  opacity: 0.6;
+}
+
+#contact h2 {
+  font-size: 45px;
+}
+
+#contact .contact {
+  display: flex;
+  justify-content: center;
+}
+
+#contact .contact .contactCont {
+  margin-right: 150px;
+}
+
+#contact .contact .contactCont .inputs input {
+  border: 1px solid #424242;
+  background-color: transparent;
+  margin-right: 10px;
+  padding-right: 150px;
+}
+
+#contact .contact .contactCont p {
+  margin-top: 10px;
+}
+
+#contact .contact .contactCont input {
+  border: 1px solid  #424242;
+  background-color: transparent;
+  padding-right: 490px;
+}
+
+#contact .contact .contactCont .box {
+  border: 1px solid  #424242;
+  background-color: transparent;
+  padding-right: 490px;
+  padding-bottom: 200px;
+}
+
+#contact .contact .contactCont button {
+  border: none;
+  margin-top: 15px;
+  border-radius: 3px;
+  padding: 7px;
+  color: #ffffff;
 }
 
 .footer p {

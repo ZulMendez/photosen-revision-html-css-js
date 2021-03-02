@@ -2,6 +2,7 @@
     h2
         color: #ece8e8
         margin: 20px 0
+        font-size: 45px
     .about
         margin: 0 50px
         .aboutImg
@@ -11,14 +12,23 @@
             p
                 color: #7e7979
     .container-fluid
-        // display: flex
-        // justify-content: center
-        // align-items: center
         .row
-            display: flex
-            justify-content: center
-            align-items: center
             .col-4
+                display: flex
+                justify-content: center
+                align-items: center
+                flex-direction: column
                 img
                     height: 300px
+                    filter: gray
+                    -webkit-filter: grayscale(1)
+                    -webkit-transition: all .8s ease-in-out
+                img:hover
+                    filter: none
+                    -webkit-filter: grayscale(0)
+                    -webkit-transform: scale(1.01)
+                span
+                    margin-top: 50px
+                    color: #fafafa
+                    opacity: 0.6
             
